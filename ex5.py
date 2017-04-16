@@ -1,19 +1,17 @@
-# This is the exercise but with my own data and with the metrc system.
+my_name = 'Antonio Carmona'
+my_age = 35 # for real
+my_height = 74 # inches
+my_weight = 180 # lbs
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Brown'
 
-name = "Antonio Carmona"
-age = 34
-height = 1.70
-weight = 110
-eyes = "Brown"
-teeth = "White"
-hair = "Black"
-
-print ("Let's talk about %s" % name)
-print ("He's %d Mts tall" % height)
-print ("He's %d Kg. heavy" % weight)
+print ("Let's talk about %s." % my_name)
+print ("He's %d inches tall." % my_height)
+print ("He's %d pounds heavy." % my_weight)
 print ("Actually that's not too heavy.")
-print ("He's got %s eyes and %s hair." % (eyes, hair))
-print ("His teeth are usually %s depending on the coffee." % teeth)
+print ("He's got %s eyes and %s hair." % (my_eyes, my_hair))
+print ("His teeth are usually %s depending on the coffee." % my_teeth)
 
-
-print ("If I add %d, %d, and %d I get %d." % (age, height, weight, age + height + weight))
+print ("If I add %d, %d, and %d I get %d." % (
+my_age, my_height, my_weight, my_age + my_height + my_weight))
